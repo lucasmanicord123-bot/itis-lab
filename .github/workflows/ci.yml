@@ -3,7 +3,7 @@ name: CI - Vérification HTML
 on:
   push:
     branches: [ "main" ]
-pull_request:
+ pull_request:
     branches: [ "main" ]
  jobs:
   test-html:
